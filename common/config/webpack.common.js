@@ -40,7 +40,7 @@ module.exports = (entry) => (
     ],
     // Por ahora, incluimos siempre los source maps para que las herramientas
     // de desarrollo del navegador muestren el codigo fuente
-    devtool: "eval-cheap-source-map",
+    devtool: "eval-cheap-module-source-map",
     // Configuracion del servidor de desarrollo
     devServer: {
       // Forzamos a que cualquier ruta que sea la de un fichero conocido por
