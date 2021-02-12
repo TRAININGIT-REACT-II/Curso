@@ -4,8 +4,8 @@
   "description": "Ejemplos del Curso de React en Training IT",
   "main": "index.js",
   "scripts": {
-    "ejemplo-1.1": "webpack serve --mode development -c ./ejemplos/2.1/webpack.config.js",
-    "ejemplo-1.2": "webpack serve --mode development -c ./ejemplos/2.2/webpack.config.js",
+    "ejemplo-2.1": "webpack serve --mode development -c ./ejemplos/2.1/webpack.config.js",
+    "ejemplo-2.2": "webpack serve --mode development -c ./ejemplos/2.2/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
