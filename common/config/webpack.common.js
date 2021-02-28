@@ -27,6 +27,14 @@ module.exports = (entry) => (
           use: {
             loader: "babel-loader",
           },
+        },
+        // Cargamos los estilos de CSS
+        {
+          test: /\.css$/,
+          use: [
+            "style-loader",
+            "css-loader"
+          ]
         }
       ],
     },
@@ -35,6 +43,7 @@ module.exports = (entry) => (
       // Utilizamos una plantilla HTML para todos los ejemplos por defecto
       new HtmlWebPackPlugin({
         template: "./common/templates/index.html",
+        favicon: "./common/static/favicon.ico",
         filename: "index.html",
       }),
     ],

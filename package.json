@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/TRAININGIT-REACT-II/Curso#readme",
   "dependencies": {
+    "css-loader": "^5.1.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
