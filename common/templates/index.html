@@ -24,6 +24,34 @@
       /* Forms */
       --mini-input-height: 42px;
     }
+
+    /* Dark theme */
+    body.dark {
+      --mini-color-text: #f6f5f5;
+      --mini-color-primary: #3acaf2;
+      --mini-color-accent: #f4d160;
+      --mini-color-secondary: #d3e0ea;
+      --mini-color-background: #181818;
+      --mini-color-element-background: #343434;
+      --mini-color-border-color: var(--mini-color-text);
+    }
+
+    body.dark ::placeholder {
+      color: var(--mini-color-text);
+    }
+
+    body.dark select {
+      color: var(--mini-color-text);
+    }
+
+    body.dark select option {
+      color: var(--mini-color-text);
+    }
+
+    /* Transition */
+    body {
+      transition: background-color .3s ease-in-out;
+    }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
