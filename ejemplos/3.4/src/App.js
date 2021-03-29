@@ -9,8 +9,7 @@ const App = () => {
   const closeModal = () => setShowModal(false);
 
   return <Layout title="3.4 Portals">
-    <section aria-labelledby="title" aria-describedby="desc">
-      <h3 id="title"></h3>
+    <section aria-describedby="desc">
       <p id="desc">
         Los <code>Portals</code> o portales te permiten renderizar contenido en un nodo
         específico del DOM. Esta funcionalidad es especialmente útil cuando determinados

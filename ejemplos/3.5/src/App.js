@@ -4,8 +4,7 @@ import UncontrolledForm from "./components/UncontrolledForm";
 
 const App = () => (
   <Layout title="3.5 Gestión de formularios">
-    <section aria-labelledby="title" aria-describedby="desc">
-      <h3 id="title"></h3>
+    <section aria-describedby="desc">
       <p id="desc">
         En React, los formularios se pueden gestionar de dos maneras: controlada y sin control.
         Ambas tienen sus ventajas e inconvenientes y dependerá de cada caso de uso.
