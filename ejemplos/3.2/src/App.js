@@ -20,7 +20,7 @@ const App = () => {
     setAdiosProps({});
   }
 
-  return <Layout title="3.1 Fragments">
+  return <Layout title="3.2 Error Boundaries">
     <section aria-labelledby="title" aria-describedby="desc">
       <h3 id="title">Error Boundaries</h3>
       <p id="desc">
