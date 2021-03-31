@@ -1,0 +1,6 @@
+.login-alert {
+  border: var(--mini-border-size) solid var(--mini-color-accent);
+  border-radius: var(--mini-border-radius);
+  background-color: var(--mini-color-element-background);
+  padding: 1rem;
+}
