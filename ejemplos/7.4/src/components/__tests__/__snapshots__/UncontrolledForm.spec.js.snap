@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ControlledForm Render agrega los elementos HTML 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col-6"
+  >
+    <form>
+      <label
+        for="uncontrolled-name"
+      >
+        Nombre
+      </label>
+      <input
+        id="uncontrolled-name"
+        type="text"
+        value=""
+      />
+      <label
+        for="uncontrolled-color"
+      >
+        Color favorito
+      </label>
+      <input
+        id="uncontrolled-color"
+        type="color"
+        value=""
+      />
+      <button>
+        Mandar preferencias
+      </button>
+    </form>
+  </div>
+  <div
+    class="col-6"
+  >
+    <dl>
+      <dt>
+        Nombre:
+      </dt>
+      <dd
+        class="uncontrolled_result_name"
+      />
+      <dt>
+        Color:
+      </dt>
+      <dd
+        class="uncontrolled_result_color"
+      />
+    </dl>
+  </div>
+</div>
+`;
