@@ -13,6 +13,7 @@
     "ejemplo-2.7": "webpack serve --mode development -c ./ejemplos/2.7/webpack.config.js",
     "ejemplo-3.1": "webpack serve --mode development -c ./ejemplos/3.1/webpack.config.js",
     "ejemplo-3.2": "webpack serve --mode development -c ./ejemplos/3.2/webpack.config.js",
+    "ejemplo-3.3": "webpack serve --mode development -c ./ejemplos/3.3/webpack.config.js",
     "ejemplo-3.4": "webpack serve --mode development -c ./ejemplos/3.4/webpack.config.js",
     "ejemplo-3.5": "webpack serve --mode development -c ./ejemplos/3.5/webpack.config.js",
     "ejemplo-3.6": "webpack serve --mode development -c ./ejemplos/3.6/webpack.config.js",
