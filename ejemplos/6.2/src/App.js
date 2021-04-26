@@ -4,7 +4,6 @@ import TodosList from "./components/TodosList";
 import Layout from "../../../common/components/Layout";
 
 import "./App.css";
-import AddTodo from "./components/AddTodo";
 
 const App = () => {
   // Definimos un estado para la lista de tareas
